@@ -4,11 +4,11 @@
     <div class="border p-3 mt-4">
         <div class="row pb-2">
             <h2 class="text-primary">Create Category</h2>
-            <hr/>
+            <hr />
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="Name" class="p-0"></label>
-            <input asp-for="Name" class="form-control"/>
+            <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-3 row p-1">
@@ -28,3 +28,9 @@
         </div>
     </div>
 </form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
