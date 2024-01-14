@@ -25,6 +25,14 @@ namespace BulkyWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj) 
         {
+            if (int.TryParse(obj.Name,out _))
+            {
+                ModelState.AddModelError("name", "The Name property must be of type string.");
+            }
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name." );
+            }
             if (ModelState.IsValid)
             {
                 _context.Categories.Add(obj);
