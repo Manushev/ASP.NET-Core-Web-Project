@@ -1,0 +1,17 @@
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Data.deps.json
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Data.runtimeconfig.json
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Data.dll
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Data.pdb
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Models.dll
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\bin\Debug\net7.0\Bulky.Models.pdb
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.csproj.AssemblyReference.cache
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.AssemblyInfoInputs.cache
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.AssemblyInfo.cs
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.csproj.CoreCompileInputs.cache
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.csproj.CopyComplete
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.dll
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\refint\Bulky.Data.dll
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.pdb
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\Bulky.Data.genruntimeconfig.cache
+C:\Users\yurio\OneDrive\Desktop\ASP.NET-Core-Web-Project\BulkyWeb\Bulky\Bulky.Data\obj\Debug\net7.0\ref\Bulky.Data.dll

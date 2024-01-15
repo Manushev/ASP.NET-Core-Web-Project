@@ -1,5 +1,5 @@
-﻿using BulkyWeb.Data;
-using BulkyWeb.Models;
+﻿using Bulky.Data.Data;
+using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel;
 

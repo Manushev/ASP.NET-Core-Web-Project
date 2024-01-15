@@ -3853,6 +3853,42 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Bulky.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Bulky.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.14",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Bulky.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bulky.Data.dll": {}
+        }
+      },
+      "Bulky.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Bulky.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bulky.Models.dll": {}
+        }
+      },
+      "Bulky.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Bulky.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bulky.Utility.dll": {}
+        }
       }
     }
   },
@@ -11199,10 +11235,28 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Bulky.Data/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Data/Bulky.Data.csproj",
+      "msbuildProject": "../Bulky.Data/Bulky.Data.csproj"
+    },
+    "Bulky.Models/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Models/Bulky.Models.csproj",
+      "msbuildProject": "../Bulky.Models/Bulky.Models.csproj"
+    },
+    "Bulky.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Bulky.Utility/Bulky.Utility.csproj",
+      "msbuildProject": "../Bulky.Utility/Bulky.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Bulky.Data >= 1.0.0",
+      "Bulky.Models >= 1.0.0",
+      "Bulky.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
@@ -11235,7 +11289,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Data\\Bulky.Data.csproj": {
+              "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Data\\Bulky.Data.csproj"
+            },
+            "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Models\\Bulky.Models.csproj": {
+              "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Models\\Bulky.Models.csproj"
+            },
+            "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
+              "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\ASP.NET-Core-Web-Project\\BulkyWeb\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
