@@ -1,6 +1,7 @@
 ﻿using Bulky.Data.Data;
 using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel;
 
 namespace BulkyWeb.Controllers
@@ -26,6 +27,11 @@ namespace BulkyWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj) 
         {
+            //bool isNameUnique = !_context.Categories.Any(e => e.Name == obj.Name);
+            if (_context.Categories.Any(n => n.Name == obj.Name))
+            {
+                ModelState.AddModelError("name", "The name already exists.");
+            }
             if (int.TryParse(obj.Name,out _))
             {
                 ModelState.AddModelError("name", "The Name property must be of type string.");
