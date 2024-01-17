@@ -12,20 +12,20 @@
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="Name" class="p-0"></label>
-            <input asp-for="Name" class="form-control" />
+            <input asp-for="Name" class="form-control rounded" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="DisplayOrder" class="p-0"></label>
-            <input asp-for="DisplayOrder" class="form-control" />
+            <input asp-for="DisplayOrder" class="form-control rounded" />
             <span asp-validation-for="DisplayOrder" class="text-danger"></span>
         </div>
         <div class="row">
             <div class="col-6 col-md-3">
-                <button type="submit" class="btn btn-primary form-control">Update</button>
+                <button type="submit" class="btn btn-primary form-control rounded">Update</button>
             </div>
             <div class="col-6 col-md-3">
-                <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary border form-control">
+                <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary border form-control rounded">
                     Back to list
                 </a>
             </div>

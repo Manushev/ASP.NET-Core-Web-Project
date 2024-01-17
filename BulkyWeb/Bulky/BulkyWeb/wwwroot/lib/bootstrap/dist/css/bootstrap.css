@@ -202,6 +202,7 @@
     }
 }
 
+
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -13535,6 +13536,8 @@ th {
 .badge.bg-secondary, .badge.bg-light {
     color: #343a40;
 }
+
+
 
 .list-group-item h1,
 .list-group-item h2,
